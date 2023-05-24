@@ -30,7 +30,7 @@ Authorization: Admins can GET, POST, PUT and DELETE all building and room data. 
 
 
 ### 2 sets of CRUD routes:
-#### User/Login: Signup, login. Password and logout routes
+#### Login: Signup, login. Password and logout routes
 #### Rooms: get route, get/:id route, post route, put route
 #### Building: post route, get route and get/:id route
 
