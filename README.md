@@ -1,6 +1,6 @@
 ## 1. A description of the scenario your project is operating in.
-In the current economy of growing rents and as hybrid working culture still continues, a real-estate firm needs to reevaluate their rented office spaces in multiple buildings across Seattle for digital nomads.
-2. A description of what problem your project seeks to solve.
+In the current economy of growing rents and as hybrid working culture still continues, a real-estate firm needs to reevaluate their rented office spaces in multiple buildings across Seattle for digital nomads. <br>
+## 2. A description of what problem your project seeks to solve.
 The firm seek to stop renting in at atleast one of their buildings to cut down budgets and therefore need to track how many conference rooms are actively in use across multiple building locations.
 To track all the spaces and who is working where, the startup needs to build a REST API. The API allows users to CREATE, DELETE and MODIFY buildings and rooms.
 The company also creates a front-end app that allows you to schedule a meeting in different rooms across buildings. This front-end is beyond the scope of this project.
