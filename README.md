@@ -3,7 +3,7 @@ In the current economy of growing rents and as hybrid working culture still cont
 
 ## 2. A description of what problem your project seeks to solve.
 The firm seek to stop renting in at atleast one of their buildings to cut down budgets and therefore need to track how many conference rooms are actively in use across multiple building locations. <br>
-To track all the spaces and who is working where, the startup needs to build a REST API. The API allows users to CREATE, DELETE and MODIFY buildings and rooms.
+To track all the spaces and who is working where, the startup needs to build a REST API. The API allows users to CREATE, DELETE and MODIFY buildings and rooms. <br>
 The company also creates a front-end app that allows you to schedule a meeting in different rooms across buildings. This front-end is beyond the scope of this project.
 
 
