@@ -11,15 +11,15 @@ The company also creates a front-end app that allows you to schedule a meeting i
 
 
 ### Models:
-User Model:
+#### User Model:
 Fields: email, password, role
-Room model: 
+#### Room model: 
 Fields: id, name, number, building, reserve-start, reserve-end (duration)
-Building model:
+#### Building model:
 Fields: name, number
 
 
-DAOS:
+### DAOS:
 Typical userDAO, roomDAO and buildingDAO to create, update, find and delete
 
 
