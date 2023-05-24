@@ -46,8 +46,8 @@ Find rooms with maximum and minimum usage time.
 
 ## 5. A timeline for what project components you plan to complete, week by week, for the remainder of the class. 
 (Weeks as per class schedule) <br>
-*Week 07: Setup base project, model–schema and and implement user and room routes
-*Week 08: Setup building routes and aggregates
-*Week 09: Setup aggregates, lookups and tests
-*Week 10: (Monday) : Spillage and presentation prep
+* Week 07: Setup base project, model–schema and and implement user and room routes
+* Week 08: Setup building routes and aggregates
+* Week 09: Setup aggregates, lookups and tests
+* Week 10: (Monday) : Spillage and presentation prep
 
