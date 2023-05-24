@@ -24,33 +24,30 @@ Typical userDAO, roomDAO and buildingDAO to create, update, find and delete
 
 
 ## 4. Clear and direct call-outs of how you will meet the various project requirements.
-Authentication and authorization:
-Authentication: User needs to sign-up and login to access API routes.
-Authorization: Admins can GET, POST, PUT and DELETE all building and room data. User can only POST room data
+#### Authentication and authorization:
+Authentication: User needs to sign-up and login to access API routes. <br>
+Authorization: Admins can GET, POST, PUT and DELETE all building and room data. User can only POST room data <br>
 
 
-2 sets of CRUD routes:
-User/Login: Signup, login. Password and logout routes
-Rooms: get route, get/:id route, post route, put route
-Building: post route, get route and get/:id route
+### 2 sets of CRUD routes:
+#### User/Login: Signup, login. Password and logout routes
+#### Rooms: get route, get/:id route, post route, put route
+#### Building: post route, get route and get/:id route
 
+### Indexes for performance:
+Indexed at BuildingId to find all rooms and occupancy for a particular building. <br>
+Indexed at roomId to find all users using a single room. <br>
 
-Indexes for performance:
-Indexed at BuildingId to find all rooms and occupancy for a particular building.
-Indexed at roomId to find all users using a single room.
-
-
-Aggregations/text search/lookups
-Aggregate and lookup: 
-Use lookup and aggregate to find building room statistics. Find buildings with maximum usage, find room in buildings with maximum usage and least values as well.
-Use lookup and aggregate to find user statistics: Find users that use spaces in more than one building, use more than one room, use multiple rooms in one day.
+### Aggregations/text search/lookups
+#### Aggregate and lookup: 
+Use lookup and aggregate to find building room statistics. Find buildings with maximum usage, find room in buildings with maximum usage and least values as well. <br>
+Use lookup and aggregate to find user statistics: Find users that use spaces in more than one building, use more than one room, use multiple rooms in one day. <br>
 Find rooms with maximum and minimum usage time.
 
-
 ## 5. A timeline for what project components you plan to complete, week by week, for the remainder of the class. 
-(Weeks as per class schedule)
-Week 07: Setup base project, model–schema and and implement user and room routes
-Week 08: Setup building routes and aggregates
-Week 09: Setup aggregates, lookups and tests
-Week 10: (Monday) : Spillage and presentation prep
+(Weeks as per class schedule) <br>
+*Week 07: Setup base project, model–schema and and implement user and room routes
+*Week 08: Setup building routes and aggregates
+*Week 09: Setup aggregates, lookups and tests
+*Week 10: (Monday) : Spillage and presentation prep
 
